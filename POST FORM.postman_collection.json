@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "740678ae-fdb1-4217-98ad-7f395dfe7696",
+		"name": "POST FORM",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "44469837"
+	},
+	"item": [
+		{
+			"name": "test post form",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Иван Тестов\",\r\n  \"email\": \"test@example.com\",\r\n  \"phone\": \"+79123456789\",\r\n  \"message\": \"Тестовое сообщение\",\r\n  \"agree\": \"on\",\r\n  \"agree3\": \"on\" \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://www.voxys.ru/data/feedback.json",
+					"protocol": "https",
+					"host": [
+						"www",
+						"voxys",
+						"ru"
+					],
+					"path": [
+						"data",
+						"feedback.json"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
