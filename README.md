@@ -15,9 +15,10 @@ npm install
 npx playwright test
 4. Проверка API
 Импортируйте коллекцию Postman из файла:
-
+POST FORM.postman_collection.json
 Используемые инструменты:
 Ручное тестирование - Yandex Browser
 Автоматизация - Playwright
 API-тестирование - Postman
 Документация - Excel,Word
+Вся работа (тестовая + практическая части) находятся в вордовском файле: "Итоговое тестовое задание"
